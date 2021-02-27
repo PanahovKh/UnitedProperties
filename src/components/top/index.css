@@ -1,0 +1,55 @@
+.top_wrapper {
+    display: flex;
+    width: 41.18em;
+    height: 1.5em;
+    margin-left: 7.31em;
+    margin-top: 2.25em;
+    margin-bottom: 90px;
+    cursor: pointer;
+}
+
+.step{
+    width: 7em;
+    height: 1.5em;
+    margin-right: 15.4em;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #A4AEB4;
+    opacity: 0.8;
+}
+
+.trouble {
+    width: 12.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #A4AEB4;
+}
+
+.get_help_wrapper {
+    width: 6.9em;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    outline: none;
+    color: #2696E8;
+    transition: .3s all;
+    background: url(../../images/arrow.svg) no-repeat 95% 9px;
+}
+
+.get_help_wrapper:hover, .get_help_wrapper:focus{
+    background: url(../../images/arrow.svg) no-repeat right 9px;
+}

@@ -1,0 +1,93 @@
+.quote_wrapper {
+    position: absolute;
+    display: block;
+    width: 23em;
+    height: 15em;
+    margin-left: 4.625em;
+    margin-top: 38em;
+    background-color: #fff;
+    box-shadow: 0px 8px 20px rgba(3, 17, 6, 0.03);
+    border-radius: 4px;
+}
+
+.quote {
+    width: 18em;
+    height: 6em;
+    margin-left: 2.5em;
+    margin-top: 3em;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #A4AEB4;
+}
+
+.author {
+    width: 10em;
+    height: 1.5em;
+    margin-left: 2.5em;
+    margin-top: 1.25em;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #07111B;
+}
+
+.position_wrapper{
+    display: flex;
+}
+
+.position {
+    width: 16.8em;
+    height: 1.25em;
+    margin-left: 2.9em;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #A4AEB4;
+}
+
+.up {
+    width: 2.57em;
+    height: 1.5em;
+    margin-left: 1.25em ;
+    background: url(../../images/UP.svg) no-repeat;
+}
+
+.quote_logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5em;
+    height: 3.5em;
+    margin-left: 3.6em;
+    margin-top: 36.5em;
+    border-radius: 3px;
+    background-color: #fff;
+    z-index: 99;
+    box-shadow: 16px 12px 56px rgba(11, 29, 46, 0.15);
+}
+.icon{
+    color: #2696E8;
+    width: 30px;
+    height: 23px;
+}
+
+.vector {
+    position: absolute;
+    width: 11.06em;
+    height: 3.03em;
+    margin-left: 4.625em;
+    margin-top: 38em;
+    background: transparent;
+    background: url(../../images/Vector.svg) no-repeat ;
+}

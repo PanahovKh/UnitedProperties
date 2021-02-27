@@ -1,0 +1,28 @@
+.header_wrapper {
+    width: 35.125em;
+    height: 6em;
+    margin-left: 7.31em;
+    margin-bottom: 2.875em;
+}
+
+.header{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    display: block;
+    padding-bottom: 0.55em;
+    color: #0B1D2E;
+}
+
+.header_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #A4AEB4;
+}

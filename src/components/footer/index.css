@@ -1,0 +1,117 @@
+.footer_wrapper {
+    display: flex;
+    align-items: center;
+    width: 57.75em;
+    height: 7.4em;
+}
+
+/* First Button  start*/
+.backHome {
+    width: 15em;
+    height: 1.5em;
+    margin-left: 8.81em;
+}
+
+.footer_links {
+    position: relative;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #35A0EE;
+}
+.footer_links:hover {
+    color: #2f86c4;
+}
+
+.footer_links::before{
+    position: absolute;
+    content: '';
+    width: 1.25em;
+    height: 1.25em;
+    margin-left: -1.875em;
+    background: url('../../images/arrow.svg') no-repeat center;
+    transform: rotate(180deg);
+}
+
+/* First Button  end*/
+
+/* Second Button  start*/
+.skip_wrapper{
+    width: 9.68em;
+    height: 3em;
+    margin-left: 7.125em;
+    border-color: transparent;
+    transition: all 0.5s linear;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #35A0EE;
+    background: rgba(53, 160, 238, 0.1);
+    border-radius: 4px;
+}
+.skip_wrapper:hover {
+    background: #35A0EE;
+    color:ghostwhite;
+}
+/* Second Button  end*/
+
+
+/* Third Button  start*/
+
+.nextStep_wrapper{
+    width: 9.625em;
+    height: 3em;
+    margin-left: 1em;
+    background: #35A0EE;
+    border-color: transparent;
+    transition: .3s all;
+    box-shadow: 0px 0px 20px rgba(53, 160, 238, 0.25);
+    border-radius: 4px;
+
+    font-family: Montserrat;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.next_step{
+    transition: .3s all;
+    background: url(../../images/white_arrow.svg) no-repeat 95% center;
+}
+
+.next_step:hover, .next_step:focus{
+    background: url(../../images/white_arrow.svg) no-repeat right center;
+    color: #fff;
+}
+
+.finish {
+    width: 6.25em;
+    height: 3em;
+    margin-left: 1em;
+    background: #35A0EE;
+    border-color: transparent;
+    box-shadow: 0px 0px 20px rgba(53, 160, 238, 0.25);
+    border-radius: 4px;
+}
+
+.arrowOff {
+    background: none;
+}
+
+.arrowOff:hover{
+    background: none;
+}
+/* Third Button  end*/

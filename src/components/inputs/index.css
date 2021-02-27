@@ -1,0 +1,116 @@
+.inputs_wrapper {
+    width: 35.125em;
+    height: 15.75em;
+    margin-left: 7.31em;
+    margin-bottom: 3.68em;
+}
+
+.name_number {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    width: 16em;
+    height: 3.75em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #A4AEB4;
+    margin-bottom: 4px;
+}
+
+
+.active_label{
+    color: #2696E8;
+}
+
+.input {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #0B1D2E;
+    border: 0;
+    border-bottom: 2px solid #D5D9DC;
+}
+.active_input{
+    border-bottom: 2px solid #2696E8;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.number {
+    /* display: flex; */
+    /* align-self: flex-end; */
+    width: 16em;
+    height: 3.75em;
+    margin-left: 19px;
+    margin-top: 24px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 35.125em;
+    height: 3.75em;
+    margin-bottom: 2.25em;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    width: 35.125em;
+    height: 3.75em;
+}
+
+/*Range Input start*/
+
+.range_wrapper {
+    width: 35.125em;
+    height: 9.125em;
+    margin-left: 7.31em;
+    margin-bottom: 2.875em;
+}
+
+.range {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2.875em;
+}
+
+.input_wrap {
+    width: 16em;
+    height: 3.125em;
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #0B1D2E;
+    border: 0;
+    border-bottom: 2px solid #D5D9DC;
+}
+
+/*Range Input end*/

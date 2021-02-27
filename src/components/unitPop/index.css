@@ -1,0 +1,14 @@
+/* United Proppertiest start */
+
+.logo{
+    position: absolute;
+    width: 15.5em;
+    height: 1em;
+    margin-top: 2.5em;
+    margin-left: 4.6em;
+    background: url(../../images/unitedProperties.svg) no-repeat;
+    z-index: 1;
+}
+
+
+/* United Proppertiest end */

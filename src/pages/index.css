@@ -1,0 +1,200 @@
+.pages_wrapper{
+    width: 57.75em;
+}
+
+.content {
+    width: 35.125em;
+    height: 7.75em;
+    margin-left: 7.31em;
+    margin-bottom: 2em;
+}
+
+.privacy_policy {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    margin-bottom: 0.75em;
+    color: #0B1D2E;
+}
+
+.text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 141%;
+    color: #A4AEB4;
+    margin-bottom: 0.75em;
+}
+
+.expand {
+    width: 13.5em;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    outline: none;
+    color: #2696E8;
+    transition: .3s all;
+    background: url(../images/arrow.svg) no-repeat 95% 9px;
+}
+
+.expand:hover, .expand:focus{
+    background: url(../images/arrow.svg) no-repeat right 9px;
+}
+
+
+/* Second Page start*/
+
+.budjet_plan-wrapper {
+    width: 33.81em;
+    height: 1.75em;
+    margin-left: 7.31em;
+    margin-bottom: 1.25em;
+}
+
+.budjet_plan-text{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 28px;
+    color: #0B1D2E;
+}
+
+.investor_wrapper {
+    width: 22.125em;
+    height: 6em;
+    margin-left: 7.31em;
+    margin-bottom: 8em;
+}
+
+.ivestor_title{
+    width: 22.125em;
+    height: 1.75em;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    color: #0B1D2E;
+}
+
+.radio_inputs{
+    display: flex;
+}
+
+.yes_wrapper {
+    width: 8.5em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7FBFF;
+    border: 2px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 1.25em;
+}
+
+.no_wrapper {
+    width: 8.5em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7FBFF;
+    border: 2px solid #D5D9DC;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.radio_input {
+    width: 20px;
+    height: 20px;
+    left: 649px;
+    top: 594px;
+    background: #F6FBFF;
+    border: 2px solid #35A0EE;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.radio_label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #35A0EE;
+}
+
+/* Second Page end*/
+
+/* Third Page start*/
+.interested_wrapper {
+    width: 40.75em;
+    height: 22.75em;
+    margin-left: 7.31em;
+    margin-bottom: 6.25em;
+}
+
+.interested_title{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 28px;
+    color: #0B1D2E;
+    margin-bottom: 1.25em;
+}
+
+.interested_form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.radio_items {
+    width: 8.5em;
+    height: 9.25em;
+    background: #F6FBFF;
+    border: 1.5px solid #35A0EE;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.checked_input {
+    width: 16px;
+    height: 16px;
+    background: #35A0EE;
+    border-radius: 2px; 
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.interest_text{
+    top: 0;
+    width: 104px;
+    height: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #031106;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    margin-top: 60px
+}
+/* Third Page end*/
